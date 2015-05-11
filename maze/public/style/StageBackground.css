@@ -1,0 +1,66 @@
+.page{
+  background-color: transparent;
+  text-align: center;
+  z-index: -1;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#page1{
+  height: 100%;
+  width: 100%;
+}
+
+#page2{
+  background-image: url(img/bgDraft/bg_street.jpg);
+}
+
+
+/*---------------------Page3-------------------------*/
+
+#page3{
+  background-image: url(img/bgDraft/bg_storm.jpg);
+}
+
+#page3_#CloudLayerFront{
+  background-image: url(img/bgDraft/bg_storm_cloud02.png);
+  background-size: cover;
+  background-position-x: 0px;
+  background-position-y: center;
+  height: 100%;
+  width: 100%;
+}
+
+#page3_#CloudLayerBack{
+  background-image: url(img/bgDraft/bg_storm_cloud01.png);
+  background-size: cover;
+  background-position-x: 0px;
+  background-position-y: center;
+  height: 100%;
+  width: 100%;
+}
+
+#page3_LightningLayer{
+  background-image: url(img/bgDraft/bg_stormLightning02.png);
+  background-size: contain;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*----------------------Page3------------------------*/
+
+#page4{
+  background-image: url(img/bgDraft/bg_plants.jpg);
+}
+
+#page5{
+  background-image: url(img/bgDraft/bg_light.jpg);
+}
+
+#page5{
+  background-image: url(img/bgDraft/bg_wall.jpg);
+}
+
